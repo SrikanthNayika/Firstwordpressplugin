@@ -17,12 +17,12 @@
   <h2>Footer Settings</h2>
   <?php if(isset($_POST['wphw_submit']) && $chk):?>
   <div id="message" class="updated below-h2">
-    <p>Content updated successfully</p>
+    <p>Successfully Updated Your Content</p>
   </div>
   <?php endif;?>
   <div class="metabox-holder">
     <div class="postbox">
-      <h3><strong>Enter footer text and click on save button.</strong></h3>
+      <h3><strong>Enter your content here and click on save changes.</strong></h3>
       <form method="post" action="">
         <table class="form-table">
           <tr>
@@ -38,6 +38,6 @@ value="<?php echo get_option('footer_text');?>" style="width:350px;" /></td>
           </tr>
         </table>
       </form>
-    </div>
+    </div>  
   </div>
 </div>
